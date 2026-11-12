@@ -1,0 +1,15 @@
+{'batch': 1, 'method': 'plain', 'seconds': 10.11, 'ms_per_token': 421.0, 'tokens_per_s': 2.37, 'speedup': 1.0, 'acceptance': 0.0}
+{'batch': 1, 'method': 'n-gram, k=4', 'seconds': 3.95, 'ms_per_token': 164.0, 'tokens_per_s': 6.08, 'speedup': 2.56, 'acceptance': 0.91}
+{'batch': 1, 'method': 'draft model, k=3', 'seconds': 7.38, 'ms_per_token': 307.0, 'tokens_per_s': 3.25, 'speedup': 1.37, 'acceptance': 0.95}
+{'batch': 2, 'method': 'plain', 'seconds': 13.85, 'ms_per_token': 577.0, 'tokens_per_s': 3.47, 'speedup': 1.0, 'acceptance': 0.0}
+{'batch': 2, 'method': 'n-gram, k=4', 'seconds': 4.52, 'ms_per_token': 189.0, 'tokens_per_s': 10.61, 'speedup': 3.06, 'acceptance': 0.91}
+{'batch': 2, 'method': 'draft model, k=3', 'seconds': 8.14, 'ms_per_token': 339.0, 'tokens_per_s': 5.9, 'speedup': 1.7, 'acceptance': 0.95}
+{'batch': 4, 'method': 'plain', 'seconds': 14.61, 'ms_per_token': 609.0, 'tokens_per_s': 6.57, 'speedup': 1.0, 'acceptance': 0.0}
+{'batch': 4, 'method': 'n-gram, k=4', 'seconds': 5.42, 'ms_per_token': 226.0, 'tokens_per_s': 17.71, 'speedup': 2.7, 'acceptance': 0.91}
+{'batch': 4, 'method': 'draft model, k=3', 'seconds': 10.97, 'ms_per_token': 457.0, 'tokens_per_s': 8.75, 'speedup': 1.33, 'acceptance': 0.95}
+{'batch': 8, 'method': 'plain', 'seconds': 20.01, 'ms_per_token': 834.0, 'tokens_per_s': 9.6, 'speedup': 1.0, 'acceptance': 0.0}
+{'batch': 8, 'method': 'n-gram, k=4', 'seconds': 8.92, 'ms_per_token': 372.0, 'tokens_per_s': 21.52, 'speedup': 2.24, 'acceptance': 0.91}
+{'batch': 8, 'method': 'draft model, k=3', 'seconds': 14.34, 'ms_per_token': 597.0, 'tokens_per_s': 13.39, 'speedup': 1.4, 'acceptance': 0.95}
+{'batch': 16, 'method': 'plain', 'seconds': 23.55, 'ms_per_token': 981.0, 'tokens_per_s': 16.31, 'speedup': 1.0, 'acceptance': 0.0}
+{'batch': 16, 'method': 'n-gram, k=4', 'seconds': 14.03, 'ms_per_token': 585.0, 'tokens_per_s': 27.36, 'speedup': 1.68, 'acceptance': 0.91}
+{'batch': 16, 'method': 'draft model, k=3', 'seconds': 23.65, 'ms_per_token': 985.0, 'tokens_per_s': 16.24, 'speedup': 1.0, 'acceptance': 0.95}

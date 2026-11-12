@@ -1,0 +1,10 @@
+PICTURES        tokens (predicted)   TTFT s   $ per question
+  448x448         284 (   284)     0.87   0.000106
+  1280x720       1224 (  1224)     2.96   0.000362
+  1920x1080      2719 (  2719)     5.77   0.000705
+SPEECH          audio s   work s    RTF   text
+  short.wav       1.24    0.037   0.030   Your jacket has shipped.
+  speech.wav      9.77    0.129   0.013   Hello, this is Tied Water Good Support.
+
+EMBEDDINGS      22 docs/s, 3190 tokens/s at batch 16
+VOICE TURN      37 ASR + 90 LLM + 300 TTS (assumed) = 427 ms

@@ -1,0 +1,12 @@
+# tidewater on m
+server http://127.0.0.1:8081, model m, 40 requests per rate, burstiness 1.0, seed 0, 2026-11-12 12:44:59
+SLO: TTFT <= 1.0 s and TPOT <= 50 ms
+
+| rate (req/s) | done/s | tok/s | TTFT p50 | TTFT p95 | TTFT p99 | TPOT p95 (ms) | met SLO | goodput/s |
+|---|---|---|---|---|---|---|---|---|
+| 0.5 | 0.40 | 44 | 0.47 | 1.20 | 1.44 | 123.83 | 18% | 0.07 |
+| 1 | 0.84 | 91 | 0.15 | 0.56 | 0.62 | 47.55 | 100% | 0.84 |
+| 2 | 1.52 | 165 | 0.21 | 1.17 | 1.23 | 39.21 | 90% | 1.36 |
+| 4 | 1.57 | 171 | 1.84 | 6.63 | 6.74 | 66.62 | 40% | 0.63 |
+
+Capacity: 2 requests per second (the highest rate where 90% of requests met the SLO).

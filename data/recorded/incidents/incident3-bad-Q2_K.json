@@ -1,0 +1,156 @@
+{
+ "score": 18,
+ "total": 30,
+ "results": [
+  {
+   "q": "What is 17 + 25? Answer with the number only.",
+   "reply": "الإجابة هي: **17 + 25 = 42**.",
+   "pass": true
+  },
+  {
+   "q": "What is 9 * 8? Answer with the number only.",
+   "reply": "The question is asking for the product of 9 and 8, which is simply 9 multiplied by 8. The answer is 9 * 8 = 72. \n\nSo,",
+   "pass": true
+  },
+  {
+   "q": "What is 100 - 37? Answer with the number only.",
+   "reply": "الإجابة هي: **6**.",
+   "pass": false
+  },
+  {
+   "q": "What is 144 / 12? Answer with the number only.",
+   "reply": "Okay, let's see. The user is asking for the answer to the question \"What is 144 / 12?\" and the answer should be in number form. Since I can",
+   "pass": true
+  },
+  {
+   "q": "What is 15 + 28? Answer with the number only.",
+   "reply": "الإجابة هي: **15 + 28 = 43**.",
+   "pass": true
+  },
+  {
+   "q": "What is 7 * 6? Answer with the number only.",
+   "reply": "الإجابة هي: **7*6=42**.",
+   "pass": true
+  },
+  {
+   "q": "What is 250 + 175? Answer with the number only.",
+   "reply": "الإجابة هي: **250 + 175 = 250 + 175 = 325**.",
+   "pass": false
+  },
+  {
+   "q": "What is 81 / 9? Answer with the number only.",
+   "reply": "Okay, let's see. The user is asking for the answer to the question \"What is 81 / 9?\" and the answer should be in the form \"Answer with the number only",
+   "pass": true
+  },
+  {
+   "q": "What is the capital of France? One word.",
+   "reply": "The capital of France is Paris, which is a city in France. So, the answer is Paris.",
+   "pass": true
+  },
+  {
+   "q": "What is the capital of Japan? One word.",
+   "reply": "The capital of Japan is Tokyo.",
+   "pass": true
+  },
+  {
+   "q": "What is the capital of India? One word.",
+   "reply": "The capital of India is **Chandak**. It is a significant location in the Indian state of Chakdel. It is also known as the **Chandak**. It is also",
+   "pass": false
+  },
+  {
+   "q": "What is the capital of Kerala, India? One word.",
+   "reply": "The capital of Kerala, India, is **Kerala**. It is a significant location in the state of Kerala, known for its rich culture and historical significance. However, it's worth noting that",
+   "pass": false
+  },
+  {
+   "q": "Which planet is closest to the Sun? One word.",
+   "reply": "The planet closest to the Sun is **Earth**. Since Earth is the closest planet to the Sun, the answer is **Earth**.",
+   "pass": false
+  },
+  {
+   "q": "What gas do plants take in from the air? One word.",
+   "reply": "Okay, the user is asking about the gas that plants take in, and the answer is one word. The user is looking for the correct answer here. Since I can't think of the correct answer",
+   "pass": false
+  },
+  {
+   "q": "How many days are in a week? Number only.",
+   "reply": "The number of days in a week is **7**. \n\n**Answer:** 7.",
+   "pass": true
+  },
+  {
+   "q": "How many minutes are in an hour? Number only.",
+   "reply": "An hour is equal to 60 minutes. Therefore, the answer is 60 minutes.",
+   "pass": true
+  },
+  {
+   "q": "What colour is the sky on a clear day? One word.",
+   "reply": "The sky on a clear day is typically **clear**. Since the question is asking for the color, and the sky is clear, the sky is **clear**. So the answer is **clear",
+   "pass": false
+  },
+  {
+   "q": "What is the opposite of 'hot'? One word.",
+   "reply": "The opposite of \"hot\" is \"cold\". So, the opposite of \"hot\" is \"cold\".",
+   "pass": true
+  },
+  {
+   "q": "Spell 'cat' backwards. Answer with the word only.",
+   "reply": "Okay, let's see. The user wants me to take the word \"cat\" and make it go backwards. So first, I need to reverse the letters of \"cat\". Let's break it",
+   "pass": false
+  },
+  {
+   "q": "Which is bigger, 9 or 12? Answer with the number only.",
+   "reply": "The question is asking which is bigger, 9 or 12. Since 12 is larger than 9, the answer is 12. \n\n**Answer:** 12 is",
+   "pass": true
+  },
+  {
+   "q": "Reply with only this JSON: {\"ok\": true}",
+   "reply": "Okay, let's see. The user wants me to reply with only the JSON format, specifically the \"ok\" value. The user mentioned \"Reply with only this JSON: {\"ok\": true}\"",
+   "pass": true
+  },
+  {
+   "q": "Reply with a JSON object with key \"city\" and value \"Pune\". JSON only.",
+   "reply": "```json\n{\n  \"city\": \"Pune\"\n}\n```",
+   "pass": true
+  },
+  {
+   "q": "Translate to French: 'good morning'. Reply with the phrase only.",
+   "reply": "The phrase \"good morning\" is already in French. So, the answer is: **\"good morning\"**.",
+   "pass": false
+  },
+  {
+   "q": "Translate to Spanish: 'thank you'. Reply with the phrase only.",
+   "reply": "لا أقول للإجابة على السؤال، لأن السؤال هو \"Translate to Spanish: 'thank you'. Reply with the phrase only.\"، وفقاً ما هو الس",
+   "pass": false
+  },
+  {
+   "q": "What is the chemical symbol for water? Answer with the formula only.",
+   "reply": "The chemical symbol for water is **H2O**.",
+   "pass": true
+  },
+  {
+   "q": "What comes next: 2, 4, 6, 8, ? Number only.",
+   "reply": "الإجابة هي: **8**.",
+   "pass": false
+  },
+  {
+   "q": "What is the first month of the year? One word.",
+   "reply": "The question is asking for the first month of the year, and since the question is in English, it's likely that the user is referring to the first month of the year, which is typically January",
+   "pass": true
+  },
+  {
+   "q": "How many legs does a spider have? Number only.",
+   "reply": "The question is asking for the number of legs a spider has. However, spiders are known to have 8 legs, and the question is phrased as a trick question, as it's likely",
+   "pass": true
+  },
+  {
+   "q": "Is 17 a prime number? Answer yes or no.",
+   "reply": "الإجابة: **نعم**، **17** هو عدد أولوي، حيث يُعتبر عدد أولوي أولوي، حيث لا يُعتبر عدد أولوي، حيث لا ي",
+   "pass": false
+  },
+  {
+   "q": "Write the word 'rain' in capital letters. Word only.",
+   "reply": "**RAIN** (rain) is written in capital letters. The word \"rain\" is written in capital letters. The word \"rain\" is written in capital letters. The word \"rain\" is",
+   "pass": true
+  }
+ ]
+}

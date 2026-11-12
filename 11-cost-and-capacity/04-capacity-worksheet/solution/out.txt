@@ -1,0 +1,5 @@
+customer   peak minute  QPS   mean in/out   busy machines  with 30% headroom + 1 spare
+tidewater  12:21     0.17     403/144            0.16      2
+kodekart   10:35     0.40    9954/154            4.61      8
+nyaya      16:11     0.05   29839/220            1.68      4
+batch: 1678 machine-seconds of work; over 6 h that is 0.08 machines busy

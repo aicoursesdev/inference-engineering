@@ -1,0 +1,6 @@
+ttft    20.4 ms   decode  340.2 tok/s   113 tokens
+ttft    19.4 ms   decode  326.4 tok/s   113 tokens
+ttft    19.4 ms   decode  324.2 tok/s   113 tokens
+ttft    19.4 ms   decode  316.1 tok/s   113 tokens
+ttft    20.4 ms   decode  314.7 tok/s   113 tokens
+median ttft 19.4 ms, median decode 324.2 tok/s

@@ -1,0 +1,4 @@
+mode       valid   tok/s  ms/request  tokens/reply
+prompt      4/12   229.6         151          31.3
+schema     12/12   157.0         205          31.3
+grammar    12/12   164.6         188          28.7

@@ -1,0 +1,9 @@
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| qwen3 0.6B Q4_K - Medium       | 372.65 MiB |   596.05 M | BLAS,MTL   |       1 |            tg64 |        24.94 ± 12.45 |
+| qwen3 0.6B Q4_K - Medium       | 372.65 MiB |   596.05 M | BLAS,MTL   |       2 |            tg64 |         23.51 ± 0.26 |
+| qwen3 0.6B Q4_K - Medium       | 372.65 MiB |   596.05 M | BLAS,MTL   |       4 |            tg64 |        47.67 ± 12.99 |
+| qwen3 0.6B Q4_K - Medium       | 372.65 MiB |   596.05 M | BLAS,MTL   |       6 |            tg64 |         71.96 ± 8.45 |
+| qwen3 0.6B Q4_K - Medium       | 372.65 MiB |   596.05 M | BLAS,MTL   |      10 |            tg64 |         19.06 ± 0.47 |
+
+build: 8642541b2 (11960)

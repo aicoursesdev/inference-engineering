@@ -1,0 +1,1 @@
+{"requests": 45, "errors": 0, "prompt_tokens": 33031, "cached_tokens": 0, "hit_rate": 0.0, "output_tokens": 2714, "cost_usd": 0.00461508, "cost_per_task_usd": 0.00115377, "ttft_p50_s": 0.11509529199975077}

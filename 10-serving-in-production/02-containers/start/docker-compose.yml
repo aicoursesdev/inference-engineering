@@ -1,0 +1,17 @@
+# llama-server (the engine) and the gateway, on a private network. Only the gateway publishes a port.
+# Image names are from llama.cpp's docs/docker.md. Put a GGUF file in ./models first.
+services:
+  engine:
+    image: ghcr.io/ggml-org/llama.cpp:server
+    command: ["-m", "/models/Qwen3-0.6B-Q8_0.gguf", "--host", "0.0.0.0", "--port", "8081",
+              "-np", "2", "--metrics"]
+    volumes: ["./models:/models:ro"]
+    # for an NVIDIA GPU use ghcr.io/ggml-org/llama.cpp:server-cuda, add "--n-gpu-layers", "99"
+    # to the command, and give the service: deploy.resources.reservations.devices (driver: nvidia, count: all)
+  gateway:
+    build: .
+    environment:
+      UPSTREAMS: http://engine:8081
+      KEYS: "sk-tidewater:tidewater:6000"
+    ports: ["8090:8090"]
+    depends_on: [engine]

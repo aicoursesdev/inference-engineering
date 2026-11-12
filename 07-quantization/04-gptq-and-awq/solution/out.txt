@@ -1,0 +1,8 @@
+calibration 8192 tokens, test 512 tokens, 4-bit weights
+group 128:  RTN 0.1314   AWQ-style (alpha 0.3) 0.1220   GPTQ 0.1105
+group  32:  RTN 0.1031   AWQ-style (alpha 0.4) 0.0940   GPTQ 0.0863
+
+# The same script with the calibration size changed from 8192 to 2048 tokens (line 77):
+# calibration 2048 tokens, test 512 tokens, 4-bit weights
+# group 128:  RTN 0.1314   AWQ-style (alpha 0.4) 0.1220   GPTQ 0.1423
+# group  32:  RTN 0.1031   AWQ-style (alpha 0.4) 0.0936   GPTQ 0.1118

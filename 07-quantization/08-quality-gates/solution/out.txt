@@ -1,0 +1,4 @@
+Q8_0    ppl   20.80 (1.006x)  KL 0.0011  top-1 0.979  task 0.700  PASS  
+Q4_K_M  ppl   22.42 (1.084x)  KL 0.1045  top-1 0.836  task 0.750  FAIL  perplexity 1.084x the base; KL 0.1045 over 0.05; top-1 agreement 0.836 under 0.9
+Q3_K_M  ppl   29.19 (1.412x)  KL 0.4194  top-1 0.694  task 0.575  FAIL  perplexity 1.412x the base; KL 0.4194 over 0.05; top-1 agreement 0.694 under 0.9; task accuracy down 0.100
+Q2_K    ppl  189.32 (9.158x)  KL 2.4855  top-1 0.352  task 0.050  FAIL  perplexity 9.158x the base; KL 2.4855 over 0.05; top-1 agreement 0.352 under 0.9; task accuracy down 0.625

@@ -1,0 +1,390 @@
+{
+ "units": {
+  "memory_gb": "decimal GB",
+  "bandwidth_gbs": "decimal GB/s",
+  "fp16_tflops": "dense FP16/BF16 tensor TFLOPS",
+  "fp8_tflops": "dense",
+  "fp4_tflops": "dense"
+ },
+ "hardware": [
+  {
+   "name": "T4",
+   "vendor": "NVIDIA",
+   "kind": "gpu",
+   "memory_gb": 16,
+   "bandwidth_gbs": 320,
+   "fp16_tflops": 65,
+   "fp8_tflops": null,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://www.nvidia.com/en-us/data-center/tesla-t4/",
+     "fetched": "2026-11-12"
+    },
+    "bandwidth_gbs": {
+     "url": "https://www.nvidia.com/en-us/data-center/tesla-t4/",
+     "fetched": "2026-11-12",
+     "note": "Page says '320+ GB/s'; 320 stored."
+    },
+    "fp16_tflops": {
+     "url": "https://www.nvidia.com/en-us/data-center/tesla-t4/",
+     "fetched": "2026-11-12",
+     "note": "Page: 'Mixed Precision (FP16/FP32) 65 FP16 TFLOPS', no sparsity mentioned (Turing has no structured sparsity). No bfloat16 on this chip."
+    }
+   },
+   "notes": "Turing: no BF16, FP8 or FP4 tensor cores."
+  },
+  {
+   "name": "L4",
+   "vendor": "NVIDIA",
+   "kind": "gpu",
+   "memory_gb": 24,
+   "bandwidth_gbs": 300,
+   "fp16_tflops": 121,
+   "fp8_tflops": 242.5,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://www.nvidia.com/en-us/data-center/l4/",
+     "fetched": "2026-11-12"
+    },
+    "bandwidth_gbs": {
+     "url": "https://www.nvidia.com/en-us/data-center/l4/",
+     "fetched": "2026-11-12"
+    },
+    "fp16_tflops": {
+     "url": "https://www.nvidia.com/en-us/data-center/l4/",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "The datasheet figure is 'with sparsity' and says dense is one-half; stored here as half of it. Datasheet 242 (FP16/BF16)."
+    },
+    "fp8_tflops": {
+     "url": "https://www.nvidia.com/en-us/data-center/l4/",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "The datasheet figure is 'with sparsity' and says dense is one-half; stored here as half of it. Datasheet 485."
+    }
+   },
+   "notes": "No FP4."
+  },
+  {
+   "name": "A10G",
+   "vendor": "NVIDIA (AWS variant)",
+   "kind": "gpu",
+   "memory_gb": 24,
+   "bandwidth_gbs": null,
+   "fp16_tflops": null,
+   "fp8_tflops": null,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://aws.amazon.com/ec2/instance-types/g5/",
+     "fetched": "2026-11-12",
+     "note": "AWS g5 page: '24 GB of memory per GPU'."
+    }
+   },
+   "notes": "AWS publishes only memory and 'up to 250 TOPS' (precision not stated). NVIDIA publishes the A10, not the A10G (A10: 600 GB/s, FP16 125 dense TFLOPS, https://www.nvidia.com/en-us/data-center/products/a10-gpu/); the A10G's own bandwidth and FP16 rate have no primary source, so they are left null."
+  },
+  {
+   "name": "A100-40GB",
+   "vendor": "NVIDIA",
+   "kind": "gpu",
+   "memory_gb": 40,
+   "bandwidth_gbs": 1555,
+   "fp16_tflops": 312,
+   "fp8_tflops": null,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf",
+     "fetched": "2026-11-12"
+    },
+    "bandwidth_gbs": {
+     "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf",
+     "fetched": "2026-11-12",
+     "note": "Same for PCIe and SXM."
+    },
+    "fp16_tflops": {
+     "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf",
+     "fetched": "2026-11-12",
+     "note": "Datasheet: '312 TFLOPS | 624 TFLOPS*' with * = with sparsity; dense is the first."
+    }
+   },
+   "notes": "No FP8 or FP4."
+  },
+  {
+   "name": "A100-80GB-SXM",
+   "vendor": "NVIDIA",
+   "kind": "gpu",
+   "memory_gb": 80,
+   "bandwidth_gbs": 2039,
+   "fp16_tflops": 312,
+   "fp8_tflops": null,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf",
+     "fetched": "2026-11-12"
+    },
+    "bandwidth_gbs": {
+     "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf",
+     "fetched": "2026-11-12",
+     "note": "PCIe is 1,935 GB/s."
+    },
+    "fp16_tflops": {
+     "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf",
+     "fetched": "2026-11-12",
+     "note": "Datasheet: '312 TFLOPS | 624 TFLOPS*' with * = with sparsity; dense is the first."
+    }
+   },
+   "notes": "No FP8 or FP4."
+  },
+  {
+   "name": "H100-SXM",
+   "vendor": "NVIDIA",
+   "kind": "gpu",
+   "memory_gb": 80,
+   "bandwidth_gbs": 3350,
+   "fp16_tflops": 989.5,
+   "fp8_tflops": 1979,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://www.nvidia.com/en-us/data-center/h100/",
+     "fetched": "2026-11-12"
+    },
+    "bandwidth_gbs": {
+     "url": "https://www.nvidia.com/en-us/data-center/h100/",
+     "fetched": "2026-11-12",
+     "note": "Page: 3.35TB/s."
+    },
+    "fp16_tflops": {
+     "url": "https://www.nvidia.com/en-us/data-center/h100/",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "The datasheet figure is 'with sparsity' and says dense is one-half; stored here as half of it. Datasheet 1,979."
+    },
+    "fp8_tflops": {
+     "url": "https://www.nvidia.com/en-us/data-center/h100/",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "The datasheet figure is 'with sparsity' and says dense is one-half; stored here as half of it. Datasheet 3,958."
+    }
+   },
+   "notes": "No FP4."
+  },
+  {
+   "name": "H100-PCIe",
+   "vendor": "NVIDIA",
+   "kind": "gpu",
+   "memory_gb": 80,
+   "bandwidth_gbs": 2000,
+   "fp16_tflops": 756.5,
+   "fp8_tflops": 1513,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20data%20center%20gpus/nvidia-h100-datasheet.pdf",
+     "fetched": "2026-11-12"
+    },
+    "bandwidth_gbs": {
+     "url": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20data%20center%20gpus/nvidia-h100-datasheet.pdf",
+     "fetched": "2026-11-12",
+     "note": "Datasheet: 2TB/s."
+    },
+    "fp16_tflops": {
+     "url": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20data%20center%20gpus/nvidia-h100-datasheet.pdf",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "Reseller (PNY) copy of NVIDIA's H100 datasheet: 1,513 TFLOPS with sparsity. The datasheet figure is 'with sparsity' and says dense is one-half; stored here as half of it."
+    },
+    "fp8_tflops": {
+     "url": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20data%20center%20gpus/nvidia-h100-datasheet.pdf",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "Datasheet 3,026 with sparsity. The datasheet figure is 'with sparsity' and says dense is one-half; stored here as half of it."
+    }
+   },
+   "notes": "No FP4."
+  },
+  {
+   "name": "H200",
+   "vendor": "NVIDIA",
+   "kind": "gpu",
+   "memory_gb": 141,
+   "bandwidth_gbs": 4800,
+   "fp16_tflops": 989.5,
+   "fp8_tflops": 1979,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://www.nvidia.com/en-us/data-center/h200/",
+     "fetched": "2026-11-12"
+    },
+    "bandwidth_gbs": {
+     "url": "https://www.nvidia.com/en-us/data-center/h200/",
+     "fetched": "2026-11-12",
+     "note": "Page: 4.8TB/s."
+    },
+    "fp16_tflops": {
+     "url": "https://www.nvidia.com/en-us/data-center/h200/",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "The datasheet figure is 'with sparsity' and says dense is one-half; stored here as half of it. Datasheet 1,979."
+    },
+    "fp8_tflops": {
+     "url": "https://www.nvidia.com/en-us/data-center/h200/",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "The datasheet figure is 'with sparsity' and says dense is one-half; stored here as half of it. Datasheet 3,958."
+    }
+   },
+   "notes": "SXM. No FP4."
+  },
+  {
+   "name": "B200",
+   "vendor": "NVIDIA",
+   "kind": "gpu",
+   "memory_gb": 180,
+   "bandwidth_gbs": 8000,
+   "fp16_tflops": 2250,
+   "fp8_tflops": 4500,
+   "fp4_tflops": 9000,
+   "sources": {
+    "memory_gb": {
+     "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "The page gives the 8-GPU system: 1,440 GB total; divided by 8."
+    },
+    "bandwidth_gbs": {
+     "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "The page gives the 8-GPU system: 64 TB/s HBM3e; divided by 8."
+    },
+    "fp16_tflops": {
+     "url": "https://www.nvidia.com/en-us/data-center/hgx/",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "HGX B200 board: FP16/BF16 36 PFLOPS, 'Specification in Sparse. Dense is 1/2 sparse'; per GPU = 36/2/8 PFLOPS."
+    },
+    "fp8_tflops": {
+     "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "DGX B200: FP8 72 PFLOPS, sparse, dense is half; per GPU = 72/2/8 PFLOPS."
+    },
+    "fp4_tflops": {
+     "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+     "fetched": "2026-11-12",
+     "derived": true,
+     "note": "DGX B200: FP4 '144 PFLOPS | 72 PFLOPS' (sparse | dense); per GPU = 72/8 PFLOPS."
+    }
+   },
+   "notes": "Per-GPU figures are system or board totals divided by eight GPUs; NVIDIA's public pages list no per-GPU table."
+  },
+  {
+   "name": "MI300X",
+   "vendor": "AMD",
+   "kind": "gpu",
+   "memory_gb": 192,
+   "bandwidth_gbs": 5300,
+   "fp16_tflops": 1307.4,
+   "fp8_tflops": 2614.9,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://www.amd.com/content/dam/amd/en/documents/instinct-tech-docs/data-sheets/amd-instinct-mi300x-data-sheet.pdf",
+     "fetched": "2026-11-12",
+     "note": "AMD data sheet: 192 GB HBM3 (read from a search summary of the data sheet; the PDF itself did not load)."
+    },
+    "bandwidth_gbs": {
+     "url": "https://rocm.docs.amd.com/en/latest/reference/gpu-arch/mi300.html",
+     "fetched": "2026-11-12",
+     "note": "'The theoretical aggregated peak memory bandwidth of the GPU is 5.3 TB per second.'"
+    },
+    "fp16_tflops": {
+     "url": "https://rocm.docs.amd.com/en/latest/reference/gpu-arch/mi300.html",
+     "fetched": "2026-11-12",
+     "note": "Peak matrix FP16 and BF16: 1307.4 (2048 FLOPS/clock/CU, a dense rate); the page lists no sparsity figure."
+    },
+    "fp8_tflops": {
+     "url": "https://rocm.docs.amd.com/en/latest/reference/gpu-arch/mi300.html",
+     "fetched": "2026-11-12",
+     "note": "Peak matrix FP8: 2614.9 (4096 FLOPS/clock/CU)."
+    }
+   },
+   "notes": "No FP4."
+  },
+  {
+   "name": "M5-Max",
+   "vendor": "Apple",
+   "kind": "laptop",
+   "memory_gb": 128,
+   "bandwidth_gbs": 614,
+   "fp16_tflops": null,
+   "fp8_tflops": null,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+     "fetched": "2026-11-12",
+     "note": "'up to 128GB of unified memory'; the largest configuration."
+    },
+    "bandwidth_gbs": {
+     "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+     "fetched": "2026-11-12",
+     "note": "'up to 614GB/s' (largest configuration; smaller ones have less)."
+    }
+   },
+   "notes": "Unified memory shared by CPU and GPU. Apple publishes no TFLOPS figure, so none is stored. The course author's machine has 36 GB."
+  },
+  {
+   "name": "M5-Max-32c",
+   "vendor": "Apple",
+   "kind": "laptop",
+   "memory_gb": 36,
+   "bandwidth_gbs": 460,
+   "fp16_tflops": null,
+   "fp8_tflops": null,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://support.apple.com/en-us/126318",
+     "fetched": "2026-11-12",
+     "note": "M5 Max with 18-core CPU and 32-core GPU, configured with 36GB; the course author's laptop."
+    },
+    "bandwidth_gbs": {
+     "url": "https://support.apple.com/en-us/126318",
+     "fetched": "2026-11-12",
+     "note": "460GB/s memory bandwidth for the M5 Max with a 32-core GPU."
+    }
+   },
+   "notes": "The machine the course's laptop measurements were made on (see data/recorded/). Apple publishes no TFLOPS figure, so none is stored."
+  },
+  {
+   "name": "M4-Pro",
+   "vendor": "Apple",
+   "kind": "laptop",
+   "memory_gb": 64,
+   "bandwidth_gbs": 273,
+   "fp16_tflops": null,
+   "fp8_tflops": null,
+   "fp4_tflops": null,
+   "sources": {
+    "memory_gb": {
+     "url": "https://www.apple.com/newsroom/2024/10/apple-introduces-m4-pro-and-m4-max/",
+     "fetched": "2026-11-12",
+     "note": "Up to 64 GB unified memory."
+    },
+    "bandwidth_gbs": {
+     "url": "https://www.apple.com/newsroom/2024/10/apple-introduces-m4-pro-and-m4-max/",
+     "fetched": "2026-11-12",
+     "note": "273 GB/s."
+    }
+   },
+   "notes": "Unified memory. Apple publishes no TFLOPS figure, so none is stored."
+  }
+ ]
+}

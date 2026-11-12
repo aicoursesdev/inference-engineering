@@ -1,0 +1,3 @@
+{"client": 0, "sent_s": 0.0, "ttft_ms": 41.1, "total_ms": 398.0, "prompt_ms": 39.665, "predicted_n": 44, "predicted_ms": 356.645}
+{"client": 1, "sent_s": 0.052, "ttft_ms": 380.5, "total_ms": 1036.6, "prompt_ms": 33.987, "predicted_n": 56, "predicted_ms": 655.406}
+{"client": 2, "sent_s": 0.1, "ttft_ms": 1029.3, "total_ms": 1637.9, "prompt_ms": 40.11, "predicted_n": 58, "predicted_ms": 606.721}

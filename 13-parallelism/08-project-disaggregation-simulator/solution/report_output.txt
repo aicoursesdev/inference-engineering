@@ -1,0 +1,38 @@
+
+Monsoon's targets, festival hour sped up 240x, 8 H100 GPUs, Llama 3.1 8B
+  colocated, least loaded              goodput  15.59/s  met  98.1%  TTFT p95  1.26 s  TPOT p95  21.1 ms
+  colocated, cache aware               goodput  15.90/s  met 100.0%  TTFT p95  0.43 s  TPOT p95  16.5 ms
+  colocated, chunked prefill           goodput  15.71/s  met  98.8%  TTFT p95  1.14 s  TPOT p95  16.8 ms
+  disaggregated 2+6, cache aware       goodput  13.20/s  met  83.0%  TTFT p95  1.93 s  TPOT p95   9.9 ms
+  disaggregated 3+5, cache aware       goodput  15.90/s  met 100.0%  TTFT p95  0.50 s  TPOT p95  10.1 ms
+  disaggregated 4+4, cache aware       goodput  15.90/s  met 100.0%  TTFT p95  0.48 s  TPOT p95  11.1 ms
+
+Monsoon's targets, festival hour sped up 480x, 8 H100 GPUs, Llama 3.1 8B
+  colocated, least loaded              goodput  21.04/s  met  89.6%  TTFT p95  2.05 s  TPOT p95  34.7 ms
+  colocated, cache aware               goodput  21.14/s  met  98.1%  TTFT p95  1.17 s  TPOT p95  22.6 ms
+  colocated, chunked prefill           goodput  21.79/s  met  93.8%  TTFT p95  2.55 s  TPOT p95  21.4 ms
+  disaggregated 2+6, cache aware       goodput   3.76/s  met  20.1%  TTFT p95  5.11 s  TPOT p95   9.8 ms
+  disaggregated 3+5, cache aware       goodput  18.65/s  met  72.2%  TTFT p95  1.88 s  TPOT p95  11.3 ms
+  disaggregated 4+4, cache aware       goodput  26.44/s  met 100.0%  TTFT p95  1.09 s  TPOT p95  12.9 ms
+
+Capacity: the fastest festival hour each design serves with 95% of requests meeting both targets
+  colocated, cache aware               480x =  34.5 requests/s offered
+  colocated, chunked prefill           240x =  17.3 requests/s offered
+  disaggregated 2+6, cache aware       120x =   8.6 requests/s offered
+  disaggregated 3+5, cache aware       360x =  25.9 requests/s offered
+  disaggregated 4+4, cache aware       600x =  43.2 requests/s offered
+  disaggregated 5+3, cache aware       720x =  51.8 requests/s offered
+
+Link speed, disaggregated 4+4, cache aware, 600x
+  NVLink 450 GB/s        met  98.1%  TTFT p95  1.15 s  TPOT p95  13.4 ms
+  400 Gb/s NIC 50 GB/s   met  98.1%  TTFT p95  1.15 s  TPOT p95  13.5 ms
+  100 Gb/s 12.5 GB/s     met  98.1%  TTFT p95  1.15 s  TPOT p95  14.0 ms
+  25 Gb/s 3.1 GB/s       met  98.1%  TTFT p95  1.15 s  TPOT p95  17.7 ms
+  10 Gb/s 1.25 GB/s      met  97.7%  TTFT p95  1.15 s  TPOT p95  27.2 ms
+
+Two published checks (DistServe, Zhong et al., OSDI 2024):
+  1. KV of one 512-token OPT-66B request: 1.125 GiB (paper: about 1.13 GB)
+     at 10 requests/s: 11.25 GiB/s = 90 Gbit/s (paper: 11.3 GB/s, 90 Gbps)
+  2. KV of a 512-token OPT-175B request: 2.42 GB; over 300 GB/s one-way NVLink: 8.1 ms
+     paper: over 95% of requests wait under 30 ms, and transfer is under 0.1% of latency
+     for the 0.1% to hold, a request must last more than 8 s (its TPOT target is 0.2 s: 40 tokens)

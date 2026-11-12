@@ -1,0 +1,5 @@
+API: $0.0000138 per request (DeepInfra, read 2026-11-12)
+L4 always on: $0.59/h x 730 h = $430.70 a month (RunPod secure cloud, read 2026-11-12)
+break-even: 31,164,978 requests a month = 11.9 requests per second, all day
+Tidewater sends 34,920 a month
+an L4's decode ceiling is 500 output tokens/s = 3.5 requests/s at 144 tokens each

@@ -1,0 +1,5 @@
+experts 256, chosen per token 8
+one expert 44.0M weights; all routed experts 654B over 58 layers; a token uses 8/256 = 3.1% of them
+skew 0.0: busiest GPU 1.00x the average; with 32 extra copies 1.00x
+skew 1.0: busiest GPU 3.15x the average; with 32 extra copies 1.57x
+skew 1.5: busiest GPU 3.98x the average; with 32 extra copies 1.99x

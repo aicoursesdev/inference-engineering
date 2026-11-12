@@ -1,0 +1,7 @@
+layer 10, 512 tokens, 3072 channels
+typical channel max (median) 0.962; largest channel max 46.2 = 48x the median
+top 3 channels: [17, 645, 2744]
+weight-only 8-bit            relative error 0.0119
+W8A8, one scale per tensor   relative error 0.3224
+W8A8, one scale per token    relative error 0.0470
+SmoothQuant a=0.5, per-tensor  relative error 0.0825

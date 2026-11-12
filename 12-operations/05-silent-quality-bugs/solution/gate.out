@@ -1,0 +1,8 @@
+canary score     25/30 -> 24/30
+stray-script replies 0 -> 0
+GATE: pass
+
+canary score     25/30 -> 18/30
+stray-script replies 0 -> 8
+GATE: FAIL: do not roll out
+

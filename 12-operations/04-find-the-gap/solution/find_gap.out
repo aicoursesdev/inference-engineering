@@ -1,0 +1,10 @@
+step 1: the unexplained gap
+  client 0 sent at     0 ms: first token after   41.1 ms, prefill  39.7 ms -> gap    1.4 ms
+  client 1 sent at    52 ms: first token after  380.5 ms, prefill  34.0 ms -> gap  346.5 ms
+  client 2 sent at   100 ms: first token after 1029.3 ms, prefill  40.1 ms -> gap  989.2 ms
+
+step 2: when the one slot was busy (seconds on the server's clock)
+  task  0:  1.113 to  1.133  (   20 ms)
+  task  2:  1.135 to  1.531  (  396 ms)
+  task  6:  1.532 to  2.221  (  689 ms)
+  task 11:  2.223 to  2.870  (  647 ms)

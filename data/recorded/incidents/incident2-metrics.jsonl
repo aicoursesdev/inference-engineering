@@ -1,0 +1,15 @@
+{"t": "01:59:00", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "01:59:05", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "01:59:10", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "01:59:15", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "01:59:20", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "01:59:25", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "01:59:30", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "01:59:35", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "01:59:40", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "01:59:45", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "01:59:50", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "01:59:55", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "02:00:00", "num_requests_running": 0, "kv_cache_usage_perc": 0.0, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.7, "gpu_free_gb": 0.2, "sampler_needs_gb": 0.0}
+{"t": "02:00:05", "num_requests_running": 28, "kv_cache_usage_perc": 0.579, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.87, "gpu_free_gb": 0.032, "sampler_needs_gb": 0.017}
+{"t": "02:00:10", "num_requests_running": 39, "kv_cache_usage_perc": 0.789, "worker_pytorch_allocated_gb": 21.6, "sidecar_gb": 1.88, "gpu_free_gb": 0.02, "sampler_needs_gb": 0.024}

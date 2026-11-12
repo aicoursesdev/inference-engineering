@@ -1,0 +1,4 @@
+45 requests in 4 tasks; the trace allows 90% reuse
+run             hit rate  ttft p50   cost/task
+no reuse              0%     114ms $0.001154
+prefix reuse         90%      43ms $0.000487

@@ -1,0 +1,4 @@
+engine,version,file,quant,ttft_ms,decode_tps,tokens,runs,machine,note
+llama.cpp,0.8.0 build 11960,Qwen3-0.6B-Q8_0.gguf,Q8_0,19.4,324.2,113,5,"Apple M5 Max laptop, 36 GB","median of 5 after a warm-up; other jobs shared the laptop"
+Ollama,0.40.15,Qwen3-0.6B-Q8_0.gguf (imported),Q8_0,24.9,318.5,113,5,"Apple M5 Max laptop, 36 GB","same session as the llama.cpp row"
+MLX-LM,0.32.2,mlx-community/Qwen3-0.6B-8bit,"8-bit, group 64",25.4,328.1,128,5,"Apple M5 Max laptop, 36 GB","hit the 128-token cap, so the text differs"

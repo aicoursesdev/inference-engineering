@@ -1,0 +1,18 @@
+INCIDENT 1: first tokens got slow after a deploy (real runs)
+  good TTFT p50   252.5 ms  p95   482.3 ms | prompt tokens computed   284 reused  2916 | prefill  119.6 ms
+  bad  TTFT p50  1240.6 ms  p95  2302.7 ms | prompt tokens computed  3200 reused     0 | prefill  694.8 ms
+  good /metrics: prompt_tokens_total 16832, prompt_tokens_cached_total 85568
+  bad  /metrics: prompt_tokens_total 119232, prompt_tokens_cached_total 85568
+  (counters are cumulative: the bad file includes the good run, so subtract)
+
+INCIDENT 2: the engine died at 02:00:10 (SIMULATED)
+  01:59:55 running   0  kv_cache_usage   0.0%  free GPU memory    200 MB  neighbour process 1.70 GB
+  02:00:00 running   0  kv_cache_usage   0.0%  free GPU memory    200 MB  neighbour process 1.70 GB
+  02:00:05 running  28  kv_cache_usage  57.9%  free GPU memory     32 MB  neighbour process 1.87 GB
+  02:00:10 running  39  kv_cache_usage  78.9%  free GPU memory     20 MB  neighbour process 1.88 GB
+  02:00:10 ERROR sampler: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 24 MB (39 rows x 151936 x 4 B). GPU 0 has a total capacity of 24 GB of which 20 MB is free.
+
+INCIDENT 3: nothing alarmed, users say answers are worse (real runs)
+  incident3-good-Q8_0.json     canary 25/30, replies with stray script: 0
+  incident3-bad-Q2_K.json      canary 18/30, replies with stray script: 8
+

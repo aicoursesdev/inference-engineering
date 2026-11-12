@@ -1,0 +1,6 @@
+T4              fp16:    20 dec    4,047 pre    fp8:    40 dec        - pre     fp4:    71 dec        - pre   
+L4              fp16:    19 dec    7,534 pre    fp8:    37 dec   15,100 pre     fp4:    66 dec        - pre   
+A100-80GB-SXM   fp16:   127 dec   19,427 pre    fp8:   254 dec        - pre     fp4:   451 dec        - pre   
+H100-SXM        fp16:   209 dec   61,613 pre    fp8:   417 dec  123,225 pre     fp4:   742 dec        - pre   
+B200            fp16:   498 dec  140,100 pre    fp8:   996 dec  280,199 pre     fp4: 1,771 dec  560,399 pre   
+MI300X          fp16:   330 dec   81,407 pre    fp8:   660 dec  162,821 pre     fp4: 1,173 dec        - pre   

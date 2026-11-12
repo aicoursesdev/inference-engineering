@@ -1,0 +1,8 @@
+GPU time: 0.951 s per request, cost $0.000264
+input  $0.306 per million tokens
+output $0.978 per million tokens
+output only, ignoring input: $0.978
+LMSYS 8xH100, RunPod community 2.69/GPU-h: $0.268 per M output tokens
+LMSYS 8xH100, Modal 3.9492/GPU-h: $0.394 per M output tokens
+rate that makes LMSYS's 0.20 true: $2.01 per GPU-hour
+DeepSeek all-in: $0.518 per M output tokens (87,072 dollars / 168 billion)

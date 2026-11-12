@@ -1,0 +1,6 @@
+tidewater on m, macOS-26.6.2-arm64-arm-64bit, $1.00/hour
+offered   output tok/s   $/M output   goodput/s   $/M output *useful*
+    0.5             44         6.36        0.07        39.17
+      1             91         3.05        0.84         3.05
+      2            165         1.68        1.36         1.83
+      4            171         1.62        0.63         4.04

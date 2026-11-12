@@ -1,0 +1,5 @@
+blk.10.ffn_down.weight (1024, 3072) std 0.0236 max 0.387
+8 bits, one scale: rms error 0.00088 (3.7% of the std)
+8 bits, groups of 32: rms error 0.00014 (0.6% of the std)
+4 bits, one scale: rms error 0.01498 (63.4% of the std)
+4 bits, groups of 32: rms error 0.00245 (10.4% of the std)

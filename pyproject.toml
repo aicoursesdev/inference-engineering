@@ -1,0 +1,40 @@
+[project]
+name = "inference-engineering"
+version = "0.1.0"
+description = "Code and data for Inference Engineering: serve open models for Monsoon Cloud, lesson by lesson."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "httpx",
+    "rich",
+    "python-dotenv",
+]
+
+# Extra tools, named for what they are used for: uv sync --extra engine
+# Each extra includes every earlier one, so `uv sync --extra service` keeps what the others installed
+# (uv sync removes anything the command does not name). `course` installs every light one.
+# Never vllm or triton: both ship Linux wheels only. GPU lessons install them in Colab or on the rented machine.
+[project.optional-dependencies]
+tests = ["pytest"]
+engine = ["inference-engineering[tests]", "safetensors", "tokenizers", "huggingface_hub"]
+bench = ["inference-engineering[engine]", "matplotlib", "pandas"]
+quant = ["inference-engineering[bench]", "gguf"]
+service = ["inference-engineering[quant]", "fastapi", "uvicorn", "prometheus-client", "opentelemetry-sdk"]
+course = ["inference-engineering[service]"]
+
+[tool.pytest.ini_options]
+addopts = "--tb=short"
+testpaths = ["servinglab/tests"]
+
+# A plain `uv sync` installs this group too, so `make check` works at once.
+[dependency-groups]
+dev = ["inference-engineering[tests]"]
+
+# Installs servinglab/ into the environment, so `import servinglab` works from any folder.
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["servinglab"]

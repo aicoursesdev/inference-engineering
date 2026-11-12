@@ -1,0 +1,15 @@
+# Prometheus alert rules on vLLM metric names (docs.vllm.ai, usage/metrics). Written, not run: no Prometheus here.
+groups:
+  - name: inference
+    rules:
+      - alert: RequestsQueueing
+        expr: avg(vllm:num_requests_waiting) > 0
+        for: 2m
+        annotations: {summary: "Requests have waited in the engine queue for 2 minutes"}
+      - alert: SlowFirstToken
+        expr: histogram_quantile(0.95, sum by (le) (rate(vllm:time_to_first_token_seconds_bucket[5m]))) > 1.0
+        for: 5m
+        annotations: {summary: "p95 time to first token above 1 s (Tidewater's target)"}
+      - alert: KVCacheNearlyFull
+        expr: max(vllm:kv_cache_usage_perc) > 0.9
+        for: 5m

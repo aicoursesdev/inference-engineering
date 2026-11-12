@@ -1,0 +1,10 @@
+good: 32 requests
+  queue and network  median   120.6 ms
+  prefill            median   119.6 ms   (284 prompt tokens computed, 2916 reused)
+  decode             median   188.8 ms   (24 tokens)
+  slowest first token: agent 2 step 1: 725 ms = 454 waiting + 272 prefill
+bad: 32 requests
+  queue and network  median   513.0 ms
+  prefill            median   694.8 ms   (3200 prompt tokens computed, 0 reused)
+  decode             median   760.1 ms   (24 tokens)
+  slowest first token: agent 2 step 8: 3274 ms = 2393 waiting + 881 prefill

@@ -1,0 +1,11 @@
+thinking   think tok  answer tok  wait for answer  total s
+off                0         108            0.01s      0.3
+off                0          89            0.01s      0.3
+off                0         173            0.02s      0.6
+off                0         514            0.02s      1.8
+off                0          76            0.03s      0.4
+on               488         132            4.64s      5.5
+on               493          93            3.28s      3.8
+on               624         157            3.77s      4.7
+on              1249          70            7.67s      8.2
+on               443          87            2.58s      3.1

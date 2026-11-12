@@ -1,0 +1,5 @@
+one decode step for 32 chats:     5.2 ms  (memory-bound)
+prefill of a 35,000-token contract:    855 ms  (compute-bound)
+the chats wait 164 decode steps for one prompt, if it runs in one piece
+moving its 4.6 GB of KV over 400 Gb/s network card (50 GB/s):   91.8 ms = 11% of the prefill
+moving its 4.6 GB of KV over NVLink, one direction (450 GB/s):   10.2 ms = 1% of the prefill

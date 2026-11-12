@@ -1,0 +1,4 @@
+step 1: prompt 3002 tokens, reused 0, computed 3002
+step 2: prompt 3402 tokens, reused 3002, computed 400
+step 3: prompt 3802 tokens, reused 3402, computed 400
+new task: prompt 3050, reused 3000, computed 50

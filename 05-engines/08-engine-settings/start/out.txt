@@ -1,0 +1,32 @@
+== Qwen3-4B T4 0.92 4096
+params_b               4.02
+weights_gb             8.04
+kv_gb                  6.68
+bytes_per_token        147,456.00
+tokens_held            45,270.00
+one_request_gb         0.60
+full_length_requests   11.05
+== Qwen3-4B T4 0.92 40960
+params_b               4.02
+weights_gb             8.04
+kv_gb                  6.68
+bytes_per_token        147,456.00
+tokens_held            45,270.00
+one_request_gb         6.04
+full_length_requests   1.11
+== Qwen3-4B T4 0.50 4096
+params_b               4.02
+weights_gb             8.04
+kv_gb                  -0.04
+bytes_per_token        147,456.00
+tokens_held            -303.00
+one_request_gb         0.60
+full_length_requests   -0.07
+== Qwen3-0.6B T4 0.92 4096
+params_b               0.60
+weights_gb             1.19
+kv_gb                  13.53
+bytes_per_token        114,688.00
+tokens_held            117,955.00
+one_request_gb         0.47
+full_length_requests   28.80

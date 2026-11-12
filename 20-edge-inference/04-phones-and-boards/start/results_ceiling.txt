@@ -1,0 +1,10 @@
+model                device                    ceiling   needs
+Qwen3-0.6B Q4_K_M    M5 Max laptop              1150/s   0.9GB
+Qwen3-0.6B Q4_K_M    Raspberry Pi 5 (8 GB)        34/s   0.9GB
+Qwen3-0.6B Q4_K_M    Jetson Orin Nano Super      255/s   0.9GB
+Qwen3-4B Q4_K_M      M5 Max laptop               184/s   3.1GB
+Qwen3-4B Q4_K_M      Raspberry Pi 5 (8 GB)         6/s   3.1GB
+Qwen3-4B Q4_K_M      Jetson Orin Nano Super       41/s   3.1GB
+Qwen3-4B Q8_0        M5 Max laptop               107/s   4.9GB
+Qwen3-4B Q8_0        Raspberry Pi 5 (8 GB)         3/s   4.9GB
+Qwen3-4B Q8_0        Jetson Orin Nano Super       24/s   4.9GB

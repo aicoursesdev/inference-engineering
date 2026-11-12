@@ -1,0 +1,12 @@
+mlx-community/Qwen3-0.6B-bf16
+  prompt  512 tokens at 19555 tok/s
+  decode  128 tokens at 242 tok/s
+  peak memory 1.52 GB
+mlx-community/Qwen3-0.6B-8bit
+  prompt  512 tokens at 18050 tok/s
+  decode  128 tokens at 368 tok/s
+  peak memory 0.98 GB
+mlx-community/Qwen3-0.6B-4bit
+  prompt  512 tokens at 19974 tok/s
+  decode  128 tokens at 482 tok/s
+  peak memory 0.70 GB

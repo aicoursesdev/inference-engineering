@@ -1,0 +1,4 @@
+step 1: {'chat-A': 1, 'chat-B': 1, 'contract': 6}
+step 2: {'chat-A': 1, 'chat-B': 1, 'contract': 6}
+step 3: {'chat-A': 1, 'chat-B': 1, 'contract': 6}
+step 4: {'chat-A': 1, 'chat-B': 1, 'contract': 2}

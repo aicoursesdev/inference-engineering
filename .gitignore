@@ -1,0 +1,10 @@
+.env
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+# model files you download (GGUF, safetensors)
+models/
+work/
+ledger.csv

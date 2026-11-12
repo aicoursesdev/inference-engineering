@@ -1,0 +1,16 @@
+F16 before 11.78 9.38 7.82
+F16 after  9.30 8.97 7.71
+Q8_0 before 9.30 8.97 7.71
+Q8_0 after  7.61 8.61 7.60
+Q6_K before 7.61 8.61 7.60
+Q6_K after  7.24 8.52 7.58
+Q5_K_M before 7.24 8.52 7.58
+Q5_K_M after  6.51 8.32 7.52
+Q4_K_M before 6.51 8.32 7.52
+Q4_K_M after  6.27 8.21 7.49
+Q4_0 before 6.27 8.21 7.49
+Q4_0 after  6.17 8.15 7.47
+Q3_K_M before 6.17 8.15 7.47
+Q3_K_M after  5.76 8.00 7.43
+Q2_K before 5.76 8.00 7.43
+Q2_K after  6.34 8.08 7.46

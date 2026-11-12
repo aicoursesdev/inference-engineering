@@ -1,0 +1,7 @@
+# SIMULATED by simulate_oom_incident.py. Not from a real engine. Sizes computed from Qwen3-4B's config.json and the L4's 24 GB.
+# weights 8.04 GB, KV pool 11.96 GB = 81,075 tokens at 147,456 B/token, idle free memory outside the pool 0.20 GB
+01:59:00 INFO  engine started: model=Qwen3-4B dtype=bfloat16 gpu_memory_utilization=0.9 max_num_seqs=256
+01:59:00 INFO  KV cache: 81,075 tokens (11.96 GB)
+02:00:10 INFO  running=39 waiting=0 kv_cache_usage=78.9%
+02:00:10 ERROR sampler: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 24 MB (39 rows x 151936 x 4 B). GPU 0 has a total capacity of 24 GB of which 20 MB is free.
+02:00:10 ERROR engine core died (exit code 1); 39 in-flight requests dropped; supervisor restarting

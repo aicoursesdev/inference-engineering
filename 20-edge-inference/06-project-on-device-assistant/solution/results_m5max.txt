@@ -1,0 +1,8 @@
+gpu: level     file MB  RSS MB  TTFT ms  tok/s  quality
+     Q2_K          296     944       23    247     6/12
+     Q4_K_M        397    1015       15    335    11/12
+     Q8_0          639    1253       19    267    11/12
+cpu-4threads: level     file MB  RSS MB  TTFT ms  tok/s  quality
+              Q2_K          296    1072       35    110     5/12
+              Q4_K_M        397    1390      115     27    11/12
+              Q8_0          639    1849       78     62    11/12

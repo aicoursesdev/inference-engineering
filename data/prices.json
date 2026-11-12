@@ -1,0 +1,315 @@
+{
+ "currency": "USD",
+ "gpu_hourly": [
+  {
+   "provider": "RunPod",
+   "gpu": "L4",
+   "usd_per_hour": 0.59,
+   "billing": "per hour",
+   "tier": "secure cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "L4",
+   "usd_per_hour": 0.44,
+   "billing": "per hour",
+   "tier": "community cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "A100-80GB-PCIe",
+   "usd_per_hour": 1.79,
+   "billing": "per hour",
+   "tier": "secure cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "A100-80GB-PCIe",
+   "usd_per_hour": 1.19,
+   "billing": "per hour",
+   "tier": "community cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "A100-80GB-SXM",
+   "usd_per_hour": 1.79,
+   "billing": "per hour",
+   "tier": "secure cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "A100-80GB-SXM",
+   "usd_per_hour": 1.39,
+   "billing": "per hour",
+   "tier": "community cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "H100-PCIe",
+   "usd_per_hour": 2.89,
+   "billing": "per hour",
+   "tier": "secure cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "H100-PCIe",
+   "usd_per_hour": 1.99,
+   "billing": "per hour",
+   "tier": "community cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "H100-SXM",
+   "usd_per_hour": 3.99,
+   "billing": "per hour",
+   "tier": "secure cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "H100-SXM",
+   "usd_per_hour": 2.69,
+   "billing": "per hour",
+   "tier": "community cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "H200",
+   "usd_per_hour": 5.29,
+   "billing": "per hour",
+   "tier": "secure cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "H200",
+   "usd_per_hour": 3.59,
+   "billing": "per hour",
+   "tier": "community cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "B200",
+   "usd_per_hour": 7.99,
+   "billing": "per hour",
+   "tier": "secure cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "RunPod",
+   "gpu": "B200",
+   "usd_per_hour": 5.98,
+   "billing": "per hour",
+   "tier": "community cloud",
+   "url": "https://www.runpod.io/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "Modal",
+   "gpu": "T4",
+   "usd_per_hour": 0.5904,
+   "billing": "per second",
+   "usd_per_second": 0.000164,
+   "derived": true,
+   "notes": "Published per second; the hourly figure is per-second x 3600.",
+   "url": "https://modal.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "Modal",
+   "gpu": "L4",
+   "usd_per_hour": 0.7992,
+   "billing": "per second",
+   "usd_per_second": 0.000222,
+   "derived": true,
+   "notes": "Published per second; the hourly figure is per-second x 3600.",
+   "url": "https://modal.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "Modal",
+   "gpu": "A10",
+   "usd_per_hour": 1.1016,
+   "billing": "per second",
+   "usd_per_second": 0.000306,
+   "derived": true,
+   "notes": "Published per second; the hourly figure is per-second x 3600.",
+   "url": "https://modal.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "Modal",
+   "gpu": "A100-40GB",
+   "usd_per_hour": 2.0988,
+   "billing": "per second",
+   "usd_per_second": 0.000583,
+   "derived": true,
+   "notes": "Published per second; the hourly figure is per-second x 3600.",
+   "url": "https://modal.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "Modal",
+   "gpu": "A100-80GB",
+   "usd_per_hour": 2.4984,
+   "billing": "per second",
+   "usd_per_second": 0.000694,
+   "derived": true,
+   "notes": "Published per second; the hourly figure is per-second x 3600.",
+   "url": "https://modal.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "Modal",
+   "gpu": "H100-SXM",
+   "usd_per_hour": 3.9492,
+   "billing": "per second",
+   "usd_per_second": 0.001097,
+   "derived": true,
+   "notes": "Published per second; the hourly figure is per-second x 3600.",
+   "url": "https://modal.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "Modal",
+   "gpu": "H200",
+   "usd_per_hour": 4.5396,
+   "billing": "per second",
+   "usd_per_second": 0.001261,
+   "derived": true,
+   "notes": "Published per second; the hourly figure is per-second x 3600.",
+   "url": "https://modal.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "Modal",
+   "gpu": "B200",
+   "usd_per_hour": 6.2496,
+   "billing": "per second",
+   "usd_per_second": 0.001736,
+   "derived": true,
+   "notes": "Published per second; the hourly figure is per-second x 3600.",
+   "url": "https://modal.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "E2E Networks",
+   "gpu": "H100-80GB",
+   "usd_per_hour": 3.99,
+   "billing": "per hour",
+   "notes": "USD per GPU-hour on demand, excluding taxes. The page quotes no rupee prices in this listing.",
+   "url": "https://www.e2enetworks.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "E2E Networks",
+   "gpu": "A100-80GB",
+   "usd_per_hour": 2.1,
+   "billing": "per hour",
+   "notes": "USD per GPU-hour on demand, excluding taxes. The page quotes no rupee prices in this listing.",
+   "url": "https://www.e2enetworks.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "E2E Networks",
+   "gpu": "A100-40GB",
+   "usd_per_hour": 1.98,
+   "billing": "per hour",
+   "notes": "USD per GPU-hour on demand, excluding taxes. The page quotes no rupee prices in this listing.",
+   "url": "https://www.e2enetworks.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "E2E Networks",
+   "gpu": "L4",
+   "usd_per_hour": 0.57,
+   "billing": "per hour",
+   "notes": "USD per GPU-hour on demand, excluding taxes. The page quotes no rupee prices in this listing.",
+   "url": "https://www.e2enetworks.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "E2E Networks",
+   "gpu": "T4",
+   "usd_per_hour": 0.45,
+   "billing": "per hour",
+   "notes": "USD per GPU-hour on demand, excluding taxes. The page quotes no rupee prices in this listing.",
+   "url": "https://www.e2enetworks.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "Google Cloud Run",
+   "gpu": "L4",
+   "usd_per_hour": 0.6721,
+   "billing": "per second",
+   "tier": "no zonal redundancy",
+   "usd_per_second": 0.0001867,
+   "derived": true,
+   "notes": "Published per second for services with instance-based billing; the hourly figure is per-second x 3600. Region tier not recorded. Read from a search result of the official page (the page did not load for the fetch tool), so recheck before quoting.",
+   "url": "https://cloud.google.com/run/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "Google Cloud Run",
+   "gpu": "L4",
+   "usd_per_hour": 1.0472,
+   "billing": "per second",
+   "tier": "zonal redundancy",
+   "usd_per_second": 0.0002909,
+   "derived": true,
+   "notes": "Published per second for services with instance-based billing; the hourly figure is per-second x 3600. Region tier not recorded. Read from a search result of the official page (the page did not load for the fetch tool), so recheck before quoting.",
+   "url": "https://cloud.google.com/run/pricing",
+   "fetched": "2026-11-12"
+  }
+ ],
+ "api_per_million_tokens": [
+  {
+   "provider": "DeepInfra",
+   "model": "Meta-Llama-3.1-8B-Instruct-Turbo",
+   "input_usd_per_mtok": 0.02,
+   "output_usd_per_mtok": 0.04,
+   "url": "https://deepinfra.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "DeepInfra",
+   "model": "DeepSeek-V3",
+   "input_usd_per_mtok": 0.32,
+   "output_usd_per_mtok": 0.89,
+   "url": "https://deepinfra.com/pricing",
+   "fetched": "2026-11-12"
+  },
+  {
+   "provider": "DeepInfra",
+   "model": "Qwen3-14B",
+   "input_usd_per_mtok": 0.12,
+   "output_usd_per_mtok": 0.24,
+   "url": "https://deepinfra.com/pricing",
+   "fetched": "2026-11-12"
+  }
+ ],
+ "notes": "List prices change often; each row is what the named page showed on the date beside it. For cost lessons only. Monsoon's own prices are in docs, not here."
+}

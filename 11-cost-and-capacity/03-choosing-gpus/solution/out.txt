@@ -1,0 +1,10 @@
+weights 16.1 GB + KV for 32 x 1000 tokens 4.2 GB = 20.3 GB
+
+GPU            memory  GB/s   fits  ceiling tok/s  $/h (provider)           $ per M output tokens
+T4                16    320  no             533   0.59 (Modal )                    -
+L4                24    300  yes            500   0.59 (RunPod secure cloud)   0.328
+A100-40GB         40   1555  yes          2,591   2.10 (Modal )                0.225
+A100-80GB-SXM     80   2039  yes          3,398   1.79 (RunPod secure cloud)   0.146
+H100-SXM          80   3350  yes          5,582   3.99 (RunPod secure cloud)   0.199
+H200             141   4800  yes          7,998   5.29 (RunPod secure cloud)   0.184
+B200             180   8000  yes         13,331   7.99 (RunPod secure cloud)   0.166

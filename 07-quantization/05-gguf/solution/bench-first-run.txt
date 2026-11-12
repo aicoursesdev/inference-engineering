@@ -1,0 +1,14 @@
+llama-bench -m <file> -p 512 -n 128 -r 3   (llama.cpp 0.8.0 build 11960, Apple M5 Max)
+Recorded from the terminal on 12 Nov 2026, on a quieter machine. The JSON files
+were not kept; a rerun later the same hour, while other jobs loaded the laptop
+(load average 6 to 12), gave far lower and noisy numbers (see loaded-rerun/),
+so these are indicative, not a benchmark. Tokens per second, mean of 3.
+level   prompt(pp512)  decode(tg128)
+F16        21160.0       221.5
+Q8_0       22477.4       336.8
+Q6_K       19841.6       377.5
+Q5_K_M     21073.9       396.0
+Q4_K_M     21845.6       414.7
+Q4_0       22459.9       418.0
+Q3_K_M     21607.6       416.9
+Q2_K       22079.3       436.3

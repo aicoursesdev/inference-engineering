@@ -1,0 +1,9 @@
+31 metadata fields, 310 tensors
+  general.architecture = qwen3
+  general.file_type = 15
+  qwen3.block_count = 28
+  qwen3.context_length = 40960
+  Q4_K    168 tensors    214.7 MB
+  Q6_K     29 tensors    175.8 MB
+  F32     113 tensors      0.3 MB
+largest tensor: token_embd.weight [np.uint64(1024), np.uint64(151936)] as Q6_K

@@ -1,0 +1,6 @@
+FP8 E4M3 (no scale)        rms error 0.00074  ( 3.1% of std)
+FP8 E5M2 (no scale)        rms error 0.00125  ( 5.3% of std)
+INT8, groups of 32         rms error 0.00014  ( 0.6% of std)
+INT4, groups of 32         rms error 0.00245  (10.4% of std)
+MXFP4 (block 32, E8M0)     rms error 0.00280  (11.9% of std)
+NVFP4 (block 16, E4M3)     rms error 0.00223  ( 9.4% of std)

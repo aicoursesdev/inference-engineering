@@ -1,0 +1,4 @@
+engine          tok/s  file MB  GB/s read
+llama-server      357      523        187
+Ollama            280      523        146
+mlx_lm.server     414      335        139

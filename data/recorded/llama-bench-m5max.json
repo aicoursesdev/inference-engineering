@@ -1,0 +1,366 @@
+{
+ "recorded_at": "2026-11-12",
+ "machine": {
+  "chip": "Apple M5 Max",
+  "os": "macOS-26.6.2-arm64-arm-64bit",
+  "llama_cpp": [
+   "version: 0.8.0 (build 11960, commit 8642541b2)"
+  ],
+  "model": "MacBook Pro, Apple M5 Max (18-core CPU, 32-core GPU), 36 GB unified memory",
+  "datasheet_bandwidth_gbs": 460,
+  "datasheet_url": "https://support.apple.com/en-us/126318"
+ },
+ "per_model": {
+  "models/Qwen3-0.6B-Q8_0.gguf": [
+   {
+    "model_type": "qwen3 0.6B Q8_0",
+    "model_size": 633495552,
+    "model_n_params": 596049920,
+    "n_prompt": 512,
+    "n_gen": 0,
+    "n_depth": 0,
+    "avg_ts": 22610.509114,
+    "stddev_ts": 123.282705,
+    "noisy": false
+   },
+   {
+    "model_type": "qwen3 0.6B Q8_0",
+    "model_size": 633495552,
+    "model_n_params": 596049920,
+    "n_prompt": 0,
+    "n_gen": 128,
+    "n_depth": 0,
+    "avg_ts": 341.816673,
+    "stddev_ts": 0.957353,
+    "noisy": false
+   }
+  ],
+  "models/Qwen3-0.6B-F16.gguf": [
+   {
+    "model_type": "qwen3 0.6B BF16",
+    "model_size": 1192230912,
+    "model_n_params": 596049920,
+    "n_prompt": 512,
+    "n_gen": 0,
+    "n_depth": 0,
+    "avg_ts": 21235.922587,
+    "stddev_ts": 109.25797,
+    "noisy": false
+   },
+   {
+    "model_type": "qwen3 0.6B BF16",
+    "model_size": 1192230912,
+    "model_n_params": 596049920,
+    "n_prompt": 0,
+    "n_gen": 128,
+    "n_depth": 0,
+    "avg_ts": 247.454536,
+    "stddev_ts": 0.2848,
+    "noisy": false
+   }
+  ],
+  "models/Qwen3-0.6B-Q4_K_M.gguf": [
+   {
+    "model_type": "qwen3 0.6B Q4_K - Medium",
+    "model_size": 390753280,
+    "model_n_params": 596049920,
+    "n_prompt": 512,
+    "n_gen": 0,
+    "n_depth": 0,
+    "avg_ts": 21853.673008,
+    "stddev_ts": 128.576935,
+    "noisy": false
+   },
+   {
+    "model_type": "qwen3 0.6B Q4_K - Medium",
+    "model_size": 390753280,
+    "model_n_params": 596049920,
+    "n_prompt": 0,
+    "n_gen": 128,
+    "n_depth": 0,
+    "avg_ts": 416.498048,
+    "stddev_ts": 1.59945,
+    "noisy": false
+   }
+  ],
+  "models/Qwen3-0.6B-Q2_K.gguf": [
+   {
+    "model_type": "qwen3 0.6B Q2_K - Medium",
+    "model_size": 290286592,
+    "model_n_params": 596049920,
+    "n_prompt": 512,
+    "n_gen": 0,
+    "n_depth": 0,
+    "avg_ts": 21992.051544,
+    "stddev_ts": 95.780547,
+    "noisy": false
+   },
+   {
+    "model_type": "qwen3 0.6B Q2_K - Medium",
+    "model_size": 290286592,
+    "model_n_params": 596049920,
+    "n_prompt": 0,
+    "n_gen": 128,
+    "n_depth": 0,
+    "avg_ts": 438.550826,
+    "stddev_ts": 5.5658,
+    "noisy": false
+   }
+  ],
+  "models/Qwen3-1.7B-Q8_0.gguf": [
+   {
+    "model_type": "qwen3 1.7B Q8_0",
+    "model_size": 1828474880,
+    "model_n_params": 1720574976,
+    "n_prompt": 512,
+    "n_gen": 0,
+    "n_depth": 0,
+    "avg_ts": 9985.006097,
+    "stddev_ts": 42.914425,
+    "noisy": false
+   },
+   {
+    "model_type": "qwen3 1.7B Q8_0",
+    "model_size": 1828474880,
+    "model_n_params": 1720574976,
+    "n_prompt": 0,
+    "n_gen": 128,
+    "n_depth": 0,
+    "avg_ts": 174.11405,
+    "stddev_ts": 1.1268,
+    "noisy": false
+   }
+  ]
+ },
+ "prefill_by_length": [
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 1,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 272.197961,
+   "stddev_ts": 7.71704,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 2,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 553.832961,
+   "stddev_ts": 26.043091,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 4,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 1288.242656,
+   "stddev_ts": 30.307285,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 8,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 2454.001572,
+   "stddev_ts": 42.208046,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 16,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 4289.175335,
+   "stddev_ts": 153.75954,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 32,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 3519.153496,
+   "stddev_ts": 44.782491,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 64,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 6713.083608,
+   "stddev_ts": 34.667659,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 128,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 11757.654105,
+   "stddev_ts": 90.645874,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 256,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 18540.755617,
+   "stddev_ts": 157.110471,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 512,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 22702.67398,
+   "stddev_ts": 226.672032,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 1024,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 20888.186942,
+   "stddev_ts": 112.807117,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 2048,
+   "n_gen": 0,
+   "n_depth": 0,
+   "avg_ts": 18395.306589,
+   "stddev_ts": 52.379463,
+   "noisy": false
+  }
+ ],
+ "decode_by_depth": [
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 0,
+   "n_gen": 128,
+   "n_depth": 0,
+   "avg_ts": 336.216637,
+   "stddev_ts": 4.944511,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 0,
+   "n_gen": 128,
+   "n_depth": 4096,
+   "avg_ts": 241.507702,
+   "stddev_ts": 17.164304,
+   "noisy": false
+  },
+  {
+   "model_type": "qwen3 0.6B Q8_0",
+   "model_size": 633495552,
+   "model_n_params": 596049920,
+   "n_prompt": 0,
+   "n_gen": 128,
+   "n_depth": 16384,
+   "avg_ts": 129.74186,
+   "stddev_ts": 4.29104,
+   "noisy": false
+  }
+ ],
+ "batched_decode": [
+  {
+   "pl": 1,
+   "n_kv": 192,
+   "speed_pp": 10110.584961,
+   "speed_tg": 334.069336
+  },
+  {
+   "pl": 2,
+   "n_kv": 384,
+   "speed_pp": 4098.492188,
+   "speed_tg": 623.332092
+  },
+  {
+   "pl": 4,
+   "n_kv": 768,
+   "speed_pp": 22826.570312,
+   "speed_tg": 1191.712036
+  },
+  {
+   "pl": 8,
+   "n_kv": 1536,
+   "speed_pp": 24522.246094,
+   "speed_tg": 2197.632324
+  },
+  {
+   "pl": 16,
+   "n_kv": 3072,
+   "speed_pp": 17753.121094,
+   "speed_tg": 3500.698975
+  },
+  {
+   "pl": 32,
+   "n_kv": 6144,
+   "speed_pp": 25283.482422,
+   "speed_tg": 2438.077881
+  },
+  {
+   "pl": 64,
+   "n_kv": 12288,
+   "speed_pp": 25147.580078,
+   "speed_tg": 3689.667969
+  },
+  {
+   "pl": 128,
+   "n_kv": 24576,
+   "speed_pp": 25309.298828,
+   "speed_tg": 4735.364258
+  }
+ ],
+ "how": "Made by 02-gpus-and-roofline/07-project-predict-then-measure/solution/record_measurements.py (llama-bench -p 512 -n 128 -r 5 per model; prefill and depth sweeps -r 3; llama-batched-bench -npp 128 -ntg 64 -c 16384), all layers on the GPU (Metal), run when the GPU was otherwise idle. Models: Qwen/Qwen3-0.6B-GGUF and Qwen/Qwen3-1.7B-GGUF from Hugging Face.",
+ "roofs_measured": {
+  "how": "02-gpus-and-roofline/03-roofline/solution/machine.py, three runs on the same day, last run shown; run-to-run spread about 1% (GPU) and 5% (CPU)",
+  "gpu_mlx_float16": {
+   "bandwidth_gbs": 406,
+   "tflops": 48.4
+  },
+  "cpu_numpy_float32": {
+   "bandwidth_gbs": 326,
+   "tflops": 1.8
+  }
+ }
+}

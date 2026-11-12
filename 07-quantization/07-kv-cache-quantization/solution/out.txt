@@ -1,0 +1,12 @@
+Qwen3-0.6B (weights 1.19 GB at 16 bits)
+  KV fp16    114,688 B/token   32k tokens  3.76 GB   cache = weights at    10,376 tokens
+  KV q8_0     60,928 B/token   32k tokens  2.00 GB   cache = weights at    19,531 tokens
+  KV q4_0     32,256 B/token   32k tokens  1.06 GB   cache = weights at    36,892 tokens
+Qwen3-4B (weights 8.04 GB at 16 bits)
+  KV fp16    147,456 B/token   32k tokens  4.83 GB   cache = weights at    54,525 tokens
+  KV q8_0     78,336 B/token   32k tokens  2.57 GB   cache = weights at   102,635 tokens
+  KV q4_0     41,472 B/token   32k tokens  1.36 GB   cache = weights at   193,866 tokens
+Llama-3.1-8B-Instruct (weights 16.06 GB at 16 bits)
+  KV fp16    131,072 B/token   32k tokens  4.29 GB   cache = weights at   122,528 tokens
+  KV q8_0     69,632 B/token   32k tokens  2.28 GB   cache = weights at   230,641 tokens
+  KV q4_0     36,864 B/token   32k tokens  1.21 GB   cache = weights at   435,655 tokens

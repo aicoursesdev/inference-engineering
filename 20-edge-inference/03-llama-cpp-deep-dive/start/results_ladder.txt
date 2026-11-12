@@ -1,0 +1,7 @@
+file                         GiB    pp512    tg128
+Qwen3-0.6B-Q2_K.gguf        0.27    22282    441±2
+Qwen3-0.6B-Q4_K_M.gguf      0.36    21898    413±10
+Qwen3-0.6B-Q8_0.gguf        0.59    22685    340±3
+Qwen3-0.6B-F16.gguf         1.11    21130    243±2
+Qwen3-4B-Q4_K_M.gguf        2.32     3959    126±1
+Qwen3-4B-Q8_0.gguf          3.98     4027     80±1

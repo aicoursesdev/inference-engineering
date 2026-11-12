@@ -1,0 +1,18 @@
+largest difference, split vs whole: 1.4210854715202004e-13
+one worker holds 8192 weights of 32768
+
+What one all-reduce moves, Llama 3.1 70B, BF16 (hidden size from its config.json)
+  batch   1: message    16.4 kB, TP=2:    16.4 kB per GPU, >=   0.04 us, x160 per step =  0.01 ms
+  batch   1: message    16.4 kB, TP=4:    24.6 kB per GPU, >=   0.05 us, x160 per step =  0.01 ms
+  batch   1: message    16.4 kB, TP=8:    28.7 kB per GPU, >=   0.06 us, x160 per step =  0.01 ms
+  batch  32: message   524.3 kB, TP=2:   524.3 kB per GPU, >=   1.17 us, x160 per step =  0.19 ms
+  batch  32: message   524.3 kB, TP=4:   786.4 kB per GPU, >=   1.75 us, x160 per step =  0.28 ms
+  batch  32: message   524.3 kB, TP=8:   917.5 kB per GPU, >=   2.04 us, x160 per step =  0.33 ms
+  batch 256: message  4194.3 kB, TP=2:  4194.3 kB per GPU, >=   9.32 us, x160 per step =  1.49 ms
+  batch 256: message  4194.3 kB, TP=4:  6291.5 kB per GPU, >=  13.98 us, x160 per step =  2.24 ms
+  batch 256: message  4194.3 kB, TP=8:  7340.0 kB per GPU, >=  16.31 us, x160 per step =  2.61 ms
+
+Against the step itself: each GPU reads its share of the weights from memory (Module 02's ceiling)
+  TP=2: weights read 21.06 ms, all-reduce floor 0.19 ms (  1% on top)
+  TP=4: weights read 10.53 ms, all-reduce floor 0.28 ms (  3% on top)
+  TP=8: weights read  5.27 ms, all-reduce floor 0.33 ms (  6% on top)

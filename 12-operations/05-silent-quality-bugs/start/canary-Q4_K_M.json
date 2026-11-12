@@ -1,0 +1,156 @@
+{
+ "score": 24,
+ "total": 30,
+ "results": [
+  {
+   "q": "What is 17 + 25? Answer with the number only.",
+   "reply": "17 + 25 = 42.",
+   "pass": true
+  },
+  {
+   "q": "What is 9 * 8? Answer with the number only.",
+   "reply": "9 * 8 = 72.",
+   "pass": true
+  },
+  {
+   "q": "What is 100 - 37? Answer with the number only.",
+   "reply": "100 - 37 = 63",
+   "pass": true
+  },
+  {
+   "q": "What is 144 / 12? Answer with the number only.",
+   "reply": "144 divided by 12 equals **12**.",
+   "pass": true
+  },
+  {
+   "q": "What is 15 + 28? Answer with the number only.",
+   "reply": "15 + 28 = 43.",
+   "pass": true
+  },
+  {
+   "q": "What is 7 * 6? Answer with the number only.",
+   "reply": "7 * 6 = 42.",
+   "pass": true
+  },
+  {
+   "q": "What is 250 + 175? Answer with the number only.",
+   "reply": "250 + 175 = 425.",
+   "pass": true
+  },
+  {
+   "q": "What is 81 / 9? Answer with the number only.",
+   "reply": "81 divided by 9 is 9.",
+   "pass": true
+  },
+  {
+   "q": "What is the capital of France? One word.",
+   "reply": "Paris.",
+   "pass": true
+  },
+  {
+   "q": "What is the capital of Japan? One word.",
+   "reply": "Tokyo",
+   "pass": true
+  },
+  {
+   "q": "What is the capital of India? One word.",
+   "reply": "Mumbai.",
+   "pass": false
+  },
+  {
+   "q": "What is the capital of Kerala, India? One word.",
+   "reply": "Kerala",
+   "pass": false
+  },
+  {
+   "q": "Which planet is closest to the Sun? One word.",
+   "reply": "Mercury",
+   "pass": true
+  },
+  {
+   "q": "What gas do plants take in from the air? One word.",
+   "reply": "oxygen",
+   "pass": false
+  },
+  {
+   "q": "How many days are in a week? Number only.",
+   "reply": "There are **7 days in a week**.",
+   "pass": true
+  },
+  {
+   "q": "How many minutes are in an hour? Number only.",
+   "reply": "There are **60 minutes in an hour**.",
+   "pass": true
+  },
+  {
+   "q": "What colour is the sky on a clear day? One word.",
+   "reply": "Blue.",
+   "pass": true
+  },
+  {
+   "q": "What is the opposite of 'hot'? One word.",
+   "reply": "Cold",
+   "pass": true
+  },
+  {
+   "q": "Spell 'cat' backwards. Answer with the word only.",
+   "reply": "cat",
+   "pass": false
+  },
+  {
+   "q": "Which is bigger, 9 or 12? Answer with the number only.",
+   "reply": "9 is bigger than 12.",
+   "pass": true
+  },
+  {
+   "q": "Reply with only this JSON: {\"ok\": true}",
+   "reply": "{\"ok\": true}",
+   "pass": true
+  },
+  {
+   "q": "Reply with a JSON object with key \"city\" and value \"Pune\". JSON only.",
+   "reply": "```json\n{\n  \"city\": \"Pune\"\n}\n```",
+   "pass": true
+  },
+  {
+   "q": "Translate to French: 'good morning'. Reply with the phrase only.",
+   "reply": "Bonjour.",
+   "pass": true
+  },
+  {
+   "q": "Translate to Spanish: 'thank you'. Reply with the phrase only.",
+   "reply": "Gracias.",
+   "pass": true
+  },
+  {
+   "q": "What is the chemical symbol for water? Answer with the formula only.",
+   "reply": "H₂O",
+   "pass": true
+  },
+  {
+   "q": "What comes next: 2, 4, 6, 8, ? Number only.",
+   "reply": "The sequence given is: **2, 4, 6, 8, ?**\n\nIt looks like each number is increasing by **2**. So the pattern is:\n\n2, 4",
+   "pass": false
+  },
+  {
+   "q": "What is the first month of the year? One word.",
+   "reply": "January",
+   "pass": true
+  },
+  {
+   "q": "How many legs does a spider have? Number only.",
+   "reply": "The number of legs a spider has is **2**.",
+   "pass": false
+  },
+  {
+   "q": "Is 17 a prime number? Answer yes or no.",
+   "reply": "Yes, 17 is a prime number. \n\n**Answer: Yes**.",
+   "pass": true
+  },
+  {
+   "q": "Write the word 'rain' in capital letters. Word only.",
+   "reply": "RAIN",
+   "pass": true
+  }
+ ]
+}

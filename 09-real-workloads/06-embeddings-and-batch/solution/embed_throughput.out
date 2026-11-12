@@ -1,0 +1,9 @@
+  text  texts per request  tokens  seconds  tokens/s
+ short                  1     576     0.73       786
+ short                  4     576     0.44      1299
+ short                 16     576     0.64       894
+ short                 64     576     0.58       992
+  long                  1    8576     2.01      4259
+  long                  4    8576     1.65      5210
+  long                 16    8576     1.54      5574
+  long                 64    8576     1.58      5420

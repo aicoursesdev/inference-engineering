@@ -1,0 +1,2 @@
+Qwen3-0.6B: 114,688 bytes per token, 29,360,128 bytes per 256-token block (28 MiB)
+Qwen3-4B: 147,456 bytes per token, 37,748,736 bytes per 256-token block (36 MiB)

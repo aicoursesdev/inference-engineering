@@ -1,0 +1,11 @@
+0.00.265.139 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.00.408.451 I cmn          init: llama threadpool init, n_threads = 6
+0.00.750.258 I 
+0.00.750.294 I system_info: n_threads = 6 (n_threads_batch = 6) / 18 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+0.00.750.303 I perplexity: tokenizing the input ..
+0.00.795.969 I perplexity: tokenization took 45.662 ms
+0.00.795.986 I perplexity: calculating perplexity over 56 chunks, n_ctx=512, batch_size=2048, n_seq=4
+0.01.216.663 I perplexity: 0.42 seconds per pass - ETA 0.08 minutes
+[1]18.7186,[2]25.4706,[3]27.1239,[4]27.5744,[5]28.2530,[6]29.0881,[7]28.9077,[8]32.0746,[9]34.1281,[10]35.4779,[11]37.6493,[12]37.6146,[13]38.5681,[14]37.9357,[15]37.1323,[16]38.3291,[17]35.2326,[18]36.5499,[19]35.9836,[20]35.9112,[21]34.8479,[22]34.9223,[23]33.2935,[24]31.4012,[25]30.5303,[26]30.1009,[27]28.8713,[28]28.3451,[29]28.6802,[30]28.4759,[31]28.1010,[32]28.2538,[33]27.6786,[34]28.0793,[35]28.4435,[36]28.8492,[37]29.7456,[38]29.8504,[39]29.5966,[40]29.7316,[41]29.7344,[42]29.4993,[43]29.7303,[44]29.8126,[45]29.9589,[46]30.0921,[47]30.6884,[48]31.0376,[49]30.8556,[50]31.0880,[51]31.1198,[52]31.0291,[53]31.2146,[54]31.3614,[55]31.6095,[56]31.6828,
+0.07.501.988 I Final estimate: PPL = 31.6828 +/- 0.91548
+

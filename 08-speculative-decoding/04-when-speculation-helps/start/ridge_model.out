@@ -1,0 +1,10 @@
+8.03B parameters, 16.06 GB; reading them takes 4.79 ms; one token's maths 16.2 us; the pass turns compute-bound at 295 tokens in flight
+alpha=0.8, k=4: 3.36 tokens per step
+ batch  plain ms  spec ms  speed-up
+     1      4.79     4.79     3.36x
+    16      4.79     4.79     3.36x
+    64      4.79     5.19     3.10x
+   128      4.79    10.39     1.55x
+   200      4.79    16.23     0.99x
+   256      4.79    20.78     0.78x
+   512      8.31    41.55     0.67x

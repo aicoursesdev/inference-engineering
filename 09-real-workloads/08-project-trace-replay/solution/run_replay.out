@@ -1,0 +1,5 @@
+45 requests in 4 tasks; the trace allows 90% reuse
+run                   hit rate  ttft p50   cost/task  valid
+no reuse                    0%     115ms $0.001154      -
+prefix reuse               90%      46ms $0.000488      -
+reuse + schema             90%     288ms $0.000439  45/45

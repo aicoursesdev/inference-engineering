@@ -1,0 +1,6 @@
+load average before: [4.2, 3.9, 4.5]
+engine          TTFT ms   tok/s  per round
+llama-server         13     357  352 358 357
+Ollama               22     280  283 280 244
+mlx_lm.server        18     414  418 395 414
+load average after: [3.8, 3.8, 4.4]

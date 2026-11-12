@@ -1,0 +1,162 @@
+[
+ {
+  "q": "What is 17 + 26?",
+  "gold": "43"
+ },
+ {
+  "q": "What is 9 * 8?",
+  "gold": "72"
+ },
+ {
+  "q": "What is 100 - 37?",
+  "gold": "63"
+ },
+ {
+  "q": "What is 144 / 12?",
+  "gold": "12"
+ },
+ {
+  "q": "What is 15 * 15?",
+  "gold": "225"
+ },
+ {
+  "q": "What is 48 + 75?",
+  "gold": "123"
+ },
+ {
+  "q": "What is 7 * 13?",
+  "gold": "91"
+ },
+ {
+  "q": "What is 500 - 123?",
+  "gold": "377"
+ },
+ {
+  "q": "What is 81 / 9?",
+  "gold": "9"
+ },
+ {
+  "q": "What is 36 + 59?",
+  "gold": "95"
+ },
+ {
+  "q": "What is the capital of France?",
+  "gold": "Paris"
+ },
+ {
+  "q": "What is the capital of Japan?",
+  "gold": "Tokyo"
+ },
+ {
+  "q": "What is the capital of India?",
+  "gold": "Delhi"
+ },
+ {
+  "q": "What is the capital of Kenya?",
+  "gold": "Nairobi"
+ },
+ {
+  "q": "What is the capital of Canada?",
+  "gold": "Ottawa"
+ },
+ {
+  "q": "What is the capital of Egypt?",
+  "gold": "Cairo"
+ },
+ {
+  "q": "What is the capital of Australia?",
+  "gold": "Canberra"
+ },
+ {
+  "q": "What is the capital of Brazil?",
+  "gold": "Brasilia"
+ },
+ {
+  "q": "What is the capital of Italy?",
+  "gold": "Rome"
+ },
+ {
+  "q": "What is the capital of Germany?",
+  "gold": "Berlin"
+ },
+ {
+  "q": "What is the chemical symbol for gold?",
+  "gold": "Au"
+ },
+ {
+  "q": "What is the chemical symbol for sodium?",
+  "gold": "Na"
+ },
+ {
+  "q": "How many days are in a week?",
+  "gold": "7"
+ },
+ {
+  "q": "How many legs does a spider have?",
+  "gold": "8"
+ },
+ {
+  "q": "What colour do you get by mixing blue and yellow?",
+  "gold": "green"
+ },
+ {
+  "q": "Which planet is closest to the sun?",
+  "gold": "Mercury"
+ },
+ {
+  "q": "What gas do plants take in from the air?",
+  "gold": "carbon dioxide"
+ },
+ {
+  "q": "How many minutes are in two hours?",
+  "gold": "120"
+ },
+ {
+  "q": "What is the largest ocean on Earth?",
+  "gold": "Pacific"
+ },
+ {
+  "q": "Which animal is known as the king of the jungle?",
+  "gold": "lion"
+ },
+ {
+  "q": "Complete the word: rain___ (a coat worn in rain)",
+  "gold": "coat"
+ },
+ {
+  "q": "What is the plural of mouse?",
+  "gold": "mice"
+ },
+ {
+  "q": "What is the opposite of hot?",
+  "gold": "cold"
+ },
+ {
+  "q": "What is the past tense of go?",
+  "gold": "went"
+ },
+ {
+  "q": "How many sides does a hexagon have?",
+  "gold": "6"
+ },
+ {
+  "q": "What is 2 to the power of 10?",
+  "gold": "1024"
+ },
+ {
+  "q": "What is the square root of 64?",
+  "gold": "8"
+ },
+ {
+  "q": "How many months have 28 days at least?",
+  "gold": "12"
+ },
+ {
+  "q": "What is the first letter of the English alphabet?",
+  "gold": "A"
+ },
+ {
+  "q": "Which is bigger, 0.9 or 0.11?",
+  "gold": "0.9"
+ }
+]

@@ -1,0 +1,6 @@
+Qwen3-0.6B-Q8_0.gguf (0.64 GB) first: healthy after 0.5 s, first reply after 0.6 s
+Qwen3-0.6B-Q8_0.gguf (0.64 GB) second: healthy after 0.5 s, first reply after 0.6 s
+Qwen3-1.7B-Q8_0.gguf (1.83 GB) first: healthy after 2.5 s, first reply after 2.7 s
+Qwen3-1.7B-Q8_0.gguf (1.83 GB) second: healthy after 1.7 s, first reply after 1.7 s
+Qwen3-4B-Q4_K_M.gguf (2.50 GB) first: healthy after 2.7 s, first reply after 2.8 s
+Qwen3-4B-Q4_K_M.gguf (2.50 GB) second: healthy after 3.0 s, first reply after 3.1 s

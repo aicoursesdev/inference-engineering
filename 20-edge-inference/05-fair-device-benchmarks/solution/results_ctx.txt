@@ -1,0 +1,4 @@
+num_ctx  32768:  225 tok/s
+num_ctx   4096:  274 tok/s
+num_ctx  32768:  279 tok/s
+num_ctx   4096:  210 tok/s

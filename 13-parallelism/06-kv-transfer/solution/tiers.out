@@ -1,0 +1,6 @@
+KV per token: 131,072 bytes
+ tokens   KV size  recompute               CPU memory over PCIe             another machine over a                     disk at 5 GB/s
+    500      66 MB     7.7 ms     1.0 ms (recompute / load =  7.5)     1.3 ms (recompute / load =  5.8)    13.1 ms (recompute / load =  0.6)
+   3000     393 MB    47.9 ms     6.1 ms (recompute / load =  7.8)     7.9 ms (recompute / load =  6.1)    78.6 ms (recompute / load =  0.6)
+  20000    2621 MB   409.3 ms    41.0 ms (recompute / load = 10.0)    52.4 ms (recompute / load =  7.8)   524.3 ms (recompute / load =  0.8)
+  35000    4588 MB   855.4 ms    71.7 ms (recompute / load = 11.9)    91.8 ms (recompute / load =  9.3)   917.5 ms (recompute / load =  0.9)
